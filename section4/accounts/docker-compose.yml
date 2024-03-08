@@ -1,0 +1,37 @@
+services:
+  accounts:
+    image: "prijwal/accounts:s4"
+    container_name: accounts-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - prijwal_network
+  loans:
+    image: "prijwal/loans:s4"
+    container_name: loans-ms
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - prijwal_network
+  cards:
+    image: "prijwal/cards:s4"
+    container_name: cards-ms
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - prijwal_network
+networks:
+  prijwal_network:
+    driver: "bridge"
