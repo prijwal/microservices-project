@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/section 2/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/v1-springboot/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/v1-springboot/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/section6/v1-springboot/loans/pom.xml" />
       </list>
     </option>
   </component>
