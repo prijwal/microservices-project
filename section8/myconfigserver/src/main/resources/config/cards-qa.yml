@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to Bank cards related QA profile APIs from config server"
+  contactDetails:
+    name: "prijwalQaInstance"
+    email: "prijwalqainstace@bank.com"
+  onCallSupport:
+    - (+91) 1234-5678
+    - (+91) 1234-5678

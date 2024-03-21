@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Bank accounts related Default profile APIs from config server"
+  contactDetails:
+    name: "prijwalDefaultInstance"
+    email: "prijwaldefaultinstace@bank.com"
+  onCallSupport:
+    - (+91) 1234-5678
+    - (+91) 1234-5678
