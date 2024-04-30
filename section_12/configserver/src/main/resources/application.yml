@@ -9,9 +9,9 @@ spring:
       server:
         # native:
           # search-locations: "classpath:/config"
-          # search-locations: "file:///Users//eazybytes//Documents//config"
+          # search-locations: "file:///Users//prijwal//Documents//config"
         git:
-          uri: "https://github.com/eazybytes/eazybytes-config.git"
+          uri: "https://github.com/prijwal/prijwal-config.git"
           default-label: main
           timeout: 5
           clone-on-start: true
